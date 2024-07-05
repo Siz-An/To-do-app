@@ -7,7 +7,6 @@ import 'package:to_do_app/tasks/data/local/data_sources/tasks_data_provider.dart
 import 'package:to_do_app/tasks/data/repository/task_repository.dart';
 import 'package:to_do_app/tasks/presentation/bloc/tasks_bloc.dart';
 import 'package:to_do_app/utils/color_palette.dart';
-
 import 'bloc_state_observer.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

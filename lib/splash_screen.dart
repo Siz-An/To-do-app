@@ -37,14 +37,14 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Image.asset('assets/images/app_logo.png', width: 100,),
+            Image.asset('assets/images/icon.png', width: 100,),
             const SizedBox(height: 20,),
-            buildText('Everything Tasks', kWhiteColor, textBold,
+            buildText('Record Your Task', kWhiteColor, textBold,
                 FontWeight.w600, TextAlign.center, TextOverflow.clip),
             const SizedBox(
               height: 10,
             ),
-            buildText('Schedule your week with ease', kWhiteColor, textTiny,
+            buildText('Schedule your task with ease', kWhiteColor, textTiny,
                 FontWeight.normal, TextAlign.center, TextOverflow.clip),
           ],
         )));

@@ -223,11 +223,13 @@ class _TasksScreenState extends State<TasksScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  SvgPicture.asset(
-                                    'assets/svgs/tasks.svg',
+                                  Image.asset(
+                                    'assets/images/icon.png',
                                     height: size.height * .20,
                                     width: size.width,
+                                    fit: BoxFit.contain, // You can adjust the fit property as needed
                                   ),
+
                                   const SizedBox(
                                     height: 50,
                                   ),
