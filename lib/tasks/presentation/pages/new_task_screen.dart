@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'package:task_manager_app/components/widgets.dart';
-import 'package:task_manager_app/tasks/data/local/model/task_model.dart';
-import 'package:task_manager_app/utils/font_sizes.dart';
-import 'package:task_manager_app/utils/util.dart';
-
 import '../../../components/custom_app_bar.dart';
+import '../../../components/widgets.dart';
 import '../../../utils/color_palette.dart';
+import '../../../utils/font_sizes.dart';
+import '../../../utils/util.dart';
+import '../../data/local/model/task_model.dart';
 import '../bloc/tasks_bloc.dart';
 import '../../../components/build_text_field.dart';
 

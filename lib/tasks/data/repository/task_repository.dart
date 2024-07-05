@@ -1,5 +1,7 @@
-import 'package:task_manager_app/tasks/data/local/data_sources/tasks_data_provider.dart';
-import 'package:task_manager_app/tasks/data/local/model/task_model.dart';
+
+
+import '../local/data_sources/tasks_data_provider.dart';
+import '../local/model/task_model.dart';
 
 class TaskRepository{
   final TaskDataProvider taskDataProvider;

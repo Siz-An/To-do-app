@@ -1,9 +1,8 @@
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:task_manager_app/tasks/data/local/model/task_model.dart';
-import 'package:task_manager_app/utils/exception_handler.dart';
-
 import '../../../../utils/constants.dart';
+import '../../../../utils/exception_handler.dart';
+import '../model/task_model.dart';
 
 class TaskDataProvider {
   List<TaskModel> tasks = [];
